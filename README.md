@@ -4,7 +4,7 @@
 - 方案一：Ubuntu系统
 
 1、开放所有端口
-```  language-shell
+```shell
 iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
 iptables -P OUTPUT ACCEPT
