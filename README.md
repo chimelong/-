@@ -18,7 +18,7 @@ apt-get purge netfilter-persistent && reboot
 - 方案二：Centos系统
 
 1、删除多余附件
-```ssh
+```shell
 systemctl stop oracle-cloud-agent
 systemctl disable oracle-cloud-agent
 systemctl stop oracle-cloud-agent-updater
@@ -35,7 +35,7 @@ systemctl disable firewalld.service
 sudo -i切换到root
 
 passwd设置密码
-```ssh
+```shell
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
