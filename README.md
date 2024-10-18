@@ -29,7 +29,7 @@ systemctl disable oracle-cloud-agent-updater
 systemctl stop firewalld.service
 systemctl disable firewalld.service
 ```
-# 甲骨文修改密码
+## 甲骨文修改密码
 - 方法一：
 
 sudo -i切换到root
