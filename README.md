@@ -2,7 +2,7 @@
 
 甲骨文如何关闭防火墙设置
 - 方案一：Ubuntu系统
-- 1、开放所有端口
+  1、开放所有端口
 ```ssh
 iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
@@ -15,7 +15,7 @@ apt-get purge netfilter-persistent && reboot
 或 rm -rf /etc/iptables && reboot
 ```
 - 方案二：Centos系统
-- 1、删除多余附件
+1、删除多余附件
 ```ssh
 systemctl stop oracle-cloud-agent
 systemctl disable oracle-cloud-agent
