@@ -16,6 +16,7 @@ apt-get purge netfilter-persistent && reboot
 或 rm -rf /etc/iptables && reboot
 ```
 - 方案二：Centos系统
+
 1、删除多余附件
 ```ssh
 systemctl stop oracle-cloud-agent
